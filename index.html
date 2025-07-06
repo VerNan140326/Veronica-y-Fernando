@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Veronica & Fernando - Nuestra Boda</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #f9f5f0;
+            color: #4a3f35;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #d6c3a5;
+            padding: 2rem;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+        header p {
+            font-style: italic;
+            margin-top: 0.5rem;
+        }
+        section {
+            padding: 2rem;
+            max-width: 800px;
+            margin: auto;
+        }
+        h2 {
+            border-bottom: 2px solid #d6c3a5;
+            padding-bottom: 0.5rem;
+        }
+        .event {
+            margin-bottom: 1.5rem;
+        }
+        form {
+            background-color: #f0e6d6;
+            padding: 1.5rem;
+            border-radius: 10px;
+        }
+        label {
+            display: block;
+            margin-top: 1rem;
+        }
+        input, select {
+            width: 100%;
+            padding: 0.5rem;
+            margin-top: 0.3rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            margin-top: 1rem;
+            background-color: #4a3f35;
+            color: white;
+            border: none;
+            padding: 0.8rem;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        footer {
+            background-color: #d6c3a5;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Veronica & Fernando</h1>
+        <p>14 - 16 de Marzo de 2026 | La Aldea de Tejera Negra</p>
+    </header>
+
+    <section>
+        <h2>¡Nos casamos!</h2>
+        <p>El amor es una aventura que elegimos compartir. Con mucha ilusión, os invitamos a acompañarnos en un fin de semana inolvidable, en un entorno natural lleno de magia.</p>
+    </section>
+
+    <section>
+        <h2>Detalles del evento</h2>
+        <div class="event">
+            <strong>Inicio:</strong> Viernes 14 de marzo, 18:00h<br>
+            <strong>Finaliza:</strong> Domingo 16 de marzo, 11:00h<br>
+            <strong>Lugar:</strong> La Aldea de Tejera Negra
+        </div>
+    </section>
+
+    <section>
+        <h2>Cómo llegar</h2>
+        <iframe src="https://www.google.com/maps?q=La+Aldea+de+Tejera+Negra&output=embed" width="100%" height="300" style="border:0;" allowfullscreen></iframe>
+    </section>
+
+    <section>
+        <h2>Confirmación de asistencia</h2>
+        <form>
+            <label for="nombre">Nombre completo</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="asistencia">¿Asistirás?</label>
+            <select id="asistencia" name="asistencia">
+                <option value="si">Sí</option>
+                <option value="no">No</option>
+            </select>
+
+            <label for="acompanante">¿Vendrás con pareja?</label>
+            <select id="acompanante" name="acompanante">
+                <option value="si">Sí</option>
+                <option value="no">No</option>
+            </select>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>Regalos</h2>
+        <p>Si deseáis hacernos un regalo, podéis hacerlo con una aportación al número de cuenta que dejaremos aquí próximamente. ¡Gracias por vuestro cariño!</p>
+    </section>
+
+    <footer>
+        <p>Con amor, Veronica & Fernando</p>
+    </footer>
+</body>
+</html>
